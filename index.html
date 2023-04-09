@@ -5,23 +5,101 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIMPLY CHOCOLATE</title>
-    <link rel="stylesheet" href="./css/styles.css" />
- 
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/reviews-decktop.css" />
+    <link rel="stylesheet" href="./css/reviews-tablet.css" />
+    <link rel="stylesheet" href="./css/reviews-tel.css" />
+    <link rel="stylesheet" href="./css/reviews.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <load src="partials/header.html"/>
-    <load src="partials/hero.html"/>
-    <load src="partials/advantages.html"/>
-    <load src="partials/unique.html"/>
-    <load src="partials/how.html"/>
-    <load src="partials/our.html"/>
-    <load src="partials/top.html"/>
-    <load src="partials/reviews.html"/>
-    <load src="partials/subscribe.html"/>
-    <load src="partials/footer.html"/>
-    <load src="partials/buy.html"/>
-    <load src="partials/leave.html"/>
-    <load src="partials/explore.html"/>
+    <!-- <load src="partials/header.html" />
+    <load src="partials/hero.html" />
+    <load src="partials/advantages.html" />
+    <load src="partials/unique.html" />
+    <load src="partials/how.html" />
+    <load src="partials/our.html" />
+    <load src="partials/top.html" />
+    <load src="partials/reviews.html" />
+    <load src="partials/subscribe.html" />
+    <load src="partials/footer.html" />
+    <load src="partials/buy.html" />
+    <load src="partials/leave.html" />
+    <load src="partials/explore.html" /> -->
+
+    <div class="container">
+      <div class="modal-container">
+        <div class="relative-box">
+          <button type="button" class="modal-close">
+            <svg class="close-modal-icon" width="12" height="12">
+              <use href="./sprait.svg#icon-close-icon"></use>
+            </svg>
+          </button>
+          <h3 class="modal-main-title">
+            LEAVE A REVIEW ABOUT <span class="text-span">OUR CHOCOLATE</span>
+          </h3>
+        </div>
+        <form class="modal-form">
+          <!-- <label for="text" class="form-label"
+            ><span class="name-span">Name</span> -->
+          <input
+            type="text"
+            id="text"
+            class="form-input"
+            name="name"
+            required
+            placeholder="Name"
+          />
+          <!-- </label> -->
+          <!-- <label for="email" class="form-label">
+            <span class="email-span">Enter your email</span> -->
+          <input
+            type="email"
+            id="email"
+            class="form-input-2"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+          <!-- </label> -->
+          <label for="tel" class="form-label"
+            ><span class="icon-span">+380</span>
+            <input
+              type="tel"
+              id="tel"
+              class="form-input-3"
+              name="phone"
+              required
+              placeholder="Phone number"
+            />
+            <svg class="form-icon" width="24" height="24">
+              <use href="./sprait.svg#Ukraine"></use>
+            </svg>
+          </label>
+
+          <textarea
+            name="comment"
+            class="text-area"
+            placeholder="Enter text"
+            id="comment"
+          ></textarea>
+
+          <button type="submit" class="modal-send-button">Send</button>
+        </form>
+      </div>
+    </div>
 
     <script type="module" src="/main.js"></script>
   </body>
