@@ -1,14 +1,19 @@
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
     max-width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e2e2e2;
   }
 
   .modal-container {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     padding: 32px 24px;
-    width: 311px;
-    height: auto;
+    max-width: 311px;
+    height: 471;
   }
 }
