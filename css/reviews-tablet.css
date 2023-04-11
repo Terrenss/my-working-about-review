@@ -1,6 +1,6 @@
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    width: 517px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
@@ -11,10 +11,78 @@
     /* position: absolute; */
     /* display: flex;
     flex-wrap: wrap; */
+    background: #fafafa;
     padding: 40px;
-    max-width: 517px;
+    width: 517px;
     height: 631px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px;
+  }
+
+  .modal-close {
+    width: 28px;
+    height: 28px;
+  }
+
+  .close-modal-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .text-span-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .modal-main-title {
+    margin-bottom: 40px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .form-input {
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    width: 437px;
+    height: 66px;
+    border-radius: 13px;
+    padding-left: 18px;
+    color: rgba(64, 64, 64, 0.3);
+  }
+
+  .form-input-2 {
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    width: 437px;
+    height: 66px;
+    border-radius: 13px;
+    padding-left: 18px;
+    display: block;
+    margin-top: 19px;
+    color: rgba(64, 64, 64, 0.3);
+  }
+
+  .form-input-3 {
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    width: 437px;
+    height: 66px;
+    border-radius: 13px;
+    padding-left: 106px;
+    position: relative;
+    display: block;
+    margin-top: 19px;
+    color: rgba(64, 64, 64, 0.3);
+  }
+
+  .text-area {
+    width: 437px;
+    height: 137px;
+    border-radius: 13px;
+    resize: none;
+    display: block;
+    margin-top: 19px;
+    color: rgba(64, 64, 64, 0.3);
+    padding: 14px 18px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
   }
 }
