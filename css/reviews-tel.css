@@ -28,6 +28,20 @@
   .modal-close {
     width: 24px;
     height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    right: 0;
+    z-index: 1;
+    background: transparent;
+  }
+
+  .close-modal-icon {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 22px;
+    height: 22px;
   }
 
   .modal-main-title {
@@ -40,6 +54,24 @@
   .text-span-1 {
     display: block;
     width: 75%;
+  }
+
+  .icon-span {
+    position: absolute;
+    color: #000000;
+    left: 50px;
+    top: 41px;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .form-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 18px;
+    top: 38px;
   }
 
   .form-input {
@@ -84,5 +116,13 @@
     color: rgba(64, 64, 64, 0.3);
     padding: 14px 18px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
+  }
+
+  .modal-send-button {
+    width: 93px;
+    height: 41px;
+    margin-top: 18px;
+    border-radius: 100px;
+    border: 1px solid #fd9222;
   }
 }
